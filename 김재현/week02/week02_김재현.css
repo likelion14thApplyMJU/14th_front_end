@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'GangwonEducationModuche';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+a{
+    text-decoration: none;
+    color: inherit; 
+}
+a:hover {
+    color: purple;
+}
+body{
+    font-family: 'GangwonEducationModuche';
+}
+.nav{
+    font-size: 200%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#face{
+    width: 70%;
+}
+#face_profile{
+    width: 15%;
+}
+#instagram_icon{
+    width: 3%;
+}
+#github_icon{
+    width: 5%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.profile{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    font-size: 120%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.container_profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.content_profile,.container_certification > p{
+    font-size: 160%;
+}
+#highschool_icon,#university_icon,#airforce_icon{
+    width: 3%;
+}
+#likeLion_icon{
+    width: 6%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.container_certification{
+    display: grid;
+    grid-template-columns:repeat(3,20%);
+    grid-gap: 5%;
+    justify-content: center;
+    text-align: center;
+}
+.container_certification :hover{
+    box-shadow:20px 20px 40px #ddd;
+}
+.certification > img{
+    width: 100%;
+}
