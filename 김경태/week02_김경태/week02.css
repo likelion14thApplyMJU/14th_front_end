@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'KerisKeduLine';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-3@1.0/KERISKEDU_Line.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Juache';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-areas:
+    "header"
+    "content"
+    "footer";
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    grid-area: header;
+    font-family: 'KerisKeduLine';
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#sidebar{
+    grid-area: side;
+}
+
+#content{
+    grid-area: content;
+    font-family: 'Juache';
+    font-size: 1.5rem;
+}
+
+.profile {
+    display: grid;
+    grid-template-areas: 
+    "g-img g-profile";
+    column-gap: 40px;
+    align-items: center;
+}
+
+#g-img{
+    grid-area: g-img;
+    justify-content: center;
+}
+#g-profile{
+    grid-area: g-profile;
+}
+
+#footer {
+    grid-area: footer;
+    font-family: 'juache';
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.picture{
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture img{
+    width: 18vw;
+}
