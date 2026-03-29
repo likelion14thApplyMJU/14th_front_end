@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-1Thin.woff2') format('woff2');
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'YeogiOttaeJalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+.font {
+  font-family: 'A2z';
+  color: var(--text);
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.font-sm {
+  font-family: 'A2z';
+  color: var(--text-2);
+  font-size: 20px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.font-skill {
+  font-family: 'A2z';
+  color: var(--text);
+  font-size: 15px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.font-introduce {
+  font-family: 'A2z';
+  color: var(--text);
+  font-size: 15px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.font2 {
+  font-family: 'YeogiOttaeJalnan';
+  color: var(--text);
+  font-size: 40px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.font2-more {
+  font-family: 'YeogiOttaeJalnan';
+  color: var(--text);
+  font-size: 40px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+:root {
+  background-color: #0a0a0f;
+  --bg: #0a0a0f;
+  --surface: #111118;
+  --surface-2: #18181F;
+  --border: rgba(201, 187, 187);
+  --accent: #7c6cf8;
+  --text: #e8e8f0;
+  --text-2: #838386;
+  --radius: 20px;
+}
+
+.top-frame {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+
+.bento {
+  display: grid;
+  background: var(--bg);
+  padding: 10px;
+  gap: 20px 20px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 220px 150px 220px 200px;
+}
+
+.base-card {
+  background: linear-gradient(135deg, #0f0f1a 0%, #1a1030 60%, #0f0f1a 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  padding: 20px;
+  overflow: hidden;           
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.music-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.music-content {
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+  margin-top: 15px;
+}
+
+.album-art {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* 곡 정보 텍스트 영역 */
+.music-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* 노래 제목 */
+.font-music-title {
+  font-family: 'YeogiOttaeJalnan';
+  color: var(--text);
+  font-size: 22px; 
+  margin: 0 0 8px 0;
+}
+
+/* 아티스트 이름 */
+.font-music-artist {
+  font-family: 'A2z';
+  color: var(--text-2);
+  font-size: 16px;
+  margin: 0;
+}
+
+.skill-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.skill-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 10px
+}
+
+.skill-chips {
+  background-color: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin-right: 5px;
+  display: inline-flex; 
+  align-items: center;
+}
+
+.introduce-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px;
+}
+
+.intruduce-box {
+  margin-top: 10px
+}
+
+.link-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1
+}
+
+.game-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-grow: 1;
+  align-items: center;  
+}
+
+.game-chips {
+  background-color: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 4px;
+  margin-right: 5px;
+  display: inline-flex; 
+  align-items: center;
+}
+
+/* 각각의 요소들을 배치 */
+.base-card {grid-column: 1 / 8; grid-row: 1 / 2;}
+.music-card {grid-column: 8 / 13; grid-row: 1 / 2;}
+.skill-card {grid-column: 1 / 5; grid-row: 2 / 3;}
+.introduce-card {grid-column: 5 / 13; grid-row: 2 / 3;}
+.link-card {grid-column: 1 / 13; grid-row: 3 / 4;}
+.game-card {grid-column: 1 / 13; grid-row: 4 / 5;}
