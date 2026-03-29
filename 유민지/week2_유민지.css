@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'SchoolSafeDictation';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimBadasseugiTTF-L.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+.font {font-family: 'SchoolSafeDictation';}
+
+* { 
+    text-align: center; 
+}
+
+span {
+    color: orange;
+    font-weight: bold;
+}
+
+.gray-text {
+    color: #888888;
+    font-size: 0.9rem;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+    background-color: #fdfdfd;
+}
+
+header, .hobby-section, .dog-section {
+    margin-bottom: 40px; 
+}
+
+.sns-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.sns-list a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
