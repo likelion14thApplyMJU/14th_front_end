@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: 'YPairing';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-4@1.1/YPairingFont.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+.body {
+    margin : 5vh 10vw 5vh 10vw;
+}
+
+.container {
+    display : grid;
+
+    grid-template-columns: 170px 3fr 1fr ;
+    grid-template-rows: 170px 450px 170px ;
+
+    grid-template-areas: "header header header"
+                         "nav main aside"
+                         "footer footer footer";
+}
+
+.header {grid-area:header;}
+.nav {grid-area:nav;}
+.main {grid-area:main;}
+.aside {grid-area:aside;}
+.footer {grid-area:footer;}
+
+ul {
+    list-style : none;
+    padding-left :0;
+    margin-left: 0;
+}
+
+ul li:before{
+    content:"잒";
+}
+
+.container {
+   
+}
+
+.logo {
+    padding : 8px;
+    border-top: 3px solid #333;
+    border-bottom : 3px solid #ccc;
+    border-left : 3px solid #333;
+    place-items : center;
+    align-items: center;
+    background-color: hwb(220 35% 32%);
+}   
+
+.title {
+    padding : 15px;
+    border-top: 3px solid #333;
+    border-bottom : 3px solid #ccc;
+    background-color : hwb(220 35% 32%);
+    font-size: 3em;
+    font-family: 'YPairing';
+    font-weight: bold;
+    color: #ffffff;
+    
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.null {
+    background-color: hwb(220 35% 32%);
+    border-top: 3px solid #333;
+    border-bottom : 3px solid #ccc;
+    border-right : 3px solid #333;
+}
+
+.main {
+    text-align: center;
+    font-family: 'YPairing';
+    font-size : 1.3em;
+}
+
+.list {
+    background-color: aliceblue;
+    font-family: 'YPairing';
+    border-left: 3px solid #333;
+
+    display:flex;
+    justify-content: center;
+}
+
+.login {
+    font-family: 'YPairing';
+    border-right: 3px solid #333;
+}
+
+.g {
+    background-color: aliceblue;
+    border-bottom: 3px solid #333;
+    border-left:3px solid #333;
+}
+
+.h {
+    font-family: 'YPairing';
+    border-bottom: 3px solid #333;
+    font-size: 5em;
+    color:rgb(67, 225, 172);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i {
+    border-bottom: 3px solid #333;
+    border-right : 3px solid #333;
+}
