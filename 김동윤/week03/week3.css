@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.line-effect:hover {
+    background-color: #2a2d2e;
+}
+
+.active-menu:hover {
+    background-color: #2a2d2e;
+    border-left: 3px solid #e5c07b;
+    color: white;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Likelion IDE - Frontend Curriculum</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
+  <link rel="stylesheet" href="week3.css">
+</head>
+
+<body>
+  <div class="flex flex-col md:flex-row min-h-screen relative">
+    <div class="block md:hidden relative">
+      <details class="bg-[#252526]">
+        <summary class="flex justify-between px-2 py-3 text-white">
+          <span>📁 Week_01</span>
+          <span>▼</span>
+        </summary>
+        <ul class="absolute w-full bg-[#252526]">
+          <li class="active-menu px-6 py-2 text-gray-400">Week_01</li>
+          <li class="active-menu px-6 py-2 text-gray-400">Week_02</li>
+          <li class="active-menu px-6 py-2 text-gray-400">Week_03</li>
+        </ul>
+      </details>
+    </div>   
+
+    <aside class="w-64 hidden  md:block bg-[#252526]">
+      <div class="text-gray-300 px-4 py-2 tracking-widest">EXPLORER</div>
+      <ul>
+        <li class="line-effect flex items-center gap-2 px-4 py-1 bg-[#37373d] text-white cursor-pointer">
+          <span>📄</span> Week_01
+        </li>
+        <li class="line-effect flex items-center gap-2 px-4 py-1 text-gray-400 cursor-pointer">
+          <span>📄</span> Week_02
+        </li>
+        <li class="line-effect flex items-center gap-2 px-4 py-1 text-gray-400 cursor-pointer">
+          <span>📄</span> Week_03
+        </li>
+        <li class="line-effect flex items-center gap-2 px-4 py-1 text-gray-400 cursor-pointer">
+          <span>📄</span> Week_04
+        </li>
+      </ul>
+    </aside>
+
+    <main class="flex flex-col flex-1 bg-[#1e1e1e] text-white">
+      <div class="flex flex-row bg-[#252526]">
+        <div class="bg-[#1e1e1e] px-4 py-2 text-white cursor-pointer">
+          Frontend.js
+        </div>
+        <div class="px-4 py-2 text-gray-500 cursor-pointer">
+          Backend.java
+        </div>
+      </div>
+
+      <div class="px-7 py-4 space-y-2">
+
+        <div class="flex gap-5 line-effect">
+          <span class="text-gray-500">1</span>
+          <span class="text-[#6A9955] ">// 1주차 학습 내용</span>
+        </div>
+
+        <div class="flex gap-5 line-effect">
+          <span class="text-gray-500">2</span>
+          <span>
+            <span class="text-[#569CD6]">const</span>
+            <span class="text-[#4FC1FF]">StudyTopic</span> =
+            <span class="text-[#CE9178]">"Frontend Track"</span>;
+          </span>
+        </div>
+
+        <div class="flex gap-5 line-effect">
+          <span class="text-gray-500">3</span>
+          <span>
+            <span class="text-[#569CD6]">const</span>
+            <span class="text-[#4FC1FF]">StudyTitle</span> =
+            <span class="text-[#CE9178]">"통합 git 세션"</span>;
+          </span>
+        </div>
+
+        <div class="flex line-effect">
+          <span class="text-gray-500">4</span>
+          <span></span>
+        </div>
+
+        <div class="flex gap-5 line-effect">
+          <span class="text-gray-500">5</span>
+          <span>
+            <span class="text-[#569CD6]">function</span>
+            <span class="text-[#DCDCAA]">learn</span>() {
+          </span>
+        </div>
+
+        <div class="flex gap-10 line-effect">
+          <span class="text-gray-500">6</span>
+          <span>
+            <span class="text-[#9CDCFE]">console</span>.<span class="text-[#DCDCAA]">log</span>(
+            <span class="text-[#CE9178]">"프론트, 백 모두 github 사용법에 대해 배웁니다."</span>
+            );
+          </span>
+        </div>
+
+        <div class="flex gap-10 line-effect">
+          <span class="text-gray-500">7</span>
+          <span>
+            <span class="text-[#9CDCFE]">console</span>.<span class="text-[#DCDCAA]">log</span>(
+            <span class="text-[#CE9178]">"미래에 협업을 위한, 동아리 활동 지속을 위한 간단한 사용방법을 익힙니다."</span>
+            );
+          </span>
+        </div>
+
+        <div class="flex gap-5 line-effect">
+          <span class="text-gray-500">8</span>
+          <span>}</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>
