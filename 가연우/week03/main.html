@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멋쟁이 사자처럼 프론트엔드</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#1e1e1e] text-white">
+
+    <div class="grid grid-cols-1 md:grid-cols-[1fr_4fr] grid-rows-[auto_1fr] h-screen">
+
+        <!-- Explorer 타이틀 (모바일 숨김) -->
+        <div class="hidden md:block p-5 bg-[#252526] border-b border-[#333] text-sm leading-8 font-mono">
+            explorer
+        </div>
+
+        <!-- 메뉴 탭 (모바일 숨김) -->
+        <div class="hidden md:flex flex-row justify-start bg-[#252526] border-b border-[#333] text-sm leading-8 font-mono">
+            <div id="frontend" class="p-5 hover:bg-[#37373d] transition-all duration-300 cursor-pointer">Frontend.js</div>
+            <div id="backend" class="p-5 hover:bg-[#37373d] transition-all duration-300 cursor-pointer">Backend.java</div>
+        </div>
+
+        <!-- 사이드바 리스트 (모바일 숨김) -->
+        <div class="hidden md:flex flex-col bg-[#252526] border-r border-[#333] text-sm leading-8 font-mono">
+            <div id="week1" class="p-5 hover:bg-[#37373d] transition-all duration-300 cursor-pointer">week1</div>
+            <div id="week2" class="p-5 hover:bg-[#37373d] transition-all duration-300 cursor-pointer">week2</div>
+            <div id="week3" class="p-5 hover:bg-[#37373d] transition-all duration-300 cursor-pointer">week3</div>
+            <div id="week4" class="p-5 hover:bg-[#37373d] transition-all duration-300 cursor-pointer">week4</div>
+        </div>
+
+        <!-- 모바일 드롭다운 버튼 -->
+        <div class="md:hidden flex items-center px-4 py-3 bg-[#252526] border-b border-[#333] text-sm leading-8 font-mono">
+            <button class="flex items-center gap-2 text-white">
+                📁 <span id="currentWeek">week1</span>
+                <span id="arrow" class="text-sm">▼</span>
+            </button>
+        </div>
+
+        <!-- 모바일 드롭다운 메뉴 -->
+        <div id="dropdown" class="hidden flex-col bg-[#252526] text-sm leading-8 font-mono">
+            <a href="week1.html">
+                <div class="p-5 hover:bg-[#37373d] transition-all duration-300 cursor-pointer">week1</div>
+            </a>
+            <div class="p-5 hover:bg-[#37373d] transition-all duration-300 cursor-pointer">week2</div>
+            <div class="p-5 hover:bg-[#37373d] transition-all duration-300 cursor-pointer">week3</div>
+            <div class="p-5 hover:bg-[#37373d] transition-all duration-300 cursor-pointer">week4</div>
+        </div>
+
+        <!-- 메인 보드 -->
+        <div class="bg-[#2d2d2d] p-6 overflow-auto col-span-1 md:col-span-1">
+            <div class="text-sm leading-8 font-mono">
+                //1주차 학습내용<br>
+                const StudyTopic = "Frontend Track";<br>
+                const StudyTopic = "통합 git 세션";<br>
+                function learn() {<br>
+                console.log("프론트, 백 모두 gitHub 사용법에 대해 배웁니다.");<br>
+                console.log("미래에 협업을 위한, 동아리 활동 지속을 위한 간단한 사용방법을 익힙니다.");<br>
+                }
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
