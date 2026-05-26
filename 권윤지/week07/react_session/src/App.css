@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.App {
+  width: 680px;
+  margin: 50px auto;
+}
+
+.App h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.viewer,
+.controller {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 28px;
+  margin-bottom: 16px;
+}
+
+.viewer h3 {
+  margin: 0 0 28px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+.count {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+}
+
+.controller button {
+  margin-right: 2px;
+  padding: 4px 8px;
+  font-size: 16px;
+
+}
