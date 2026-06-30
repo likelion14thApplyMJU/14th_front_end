@@ -1,0 +1,35 @@
+body {
+  margin: 5vh 10vw 5vh 10vw;
+  background-color: rgb(166, 201, 215);
+}
+
+.mainText {
+  text-decoration: none;
+  color: white;
+}
+
+.p { text-size-adjust: initial
+  color black;
+
+
+
+}
+
+.feature { width: 100px;
+    height: 50px;
+    background-color: yellow;
+    border: 20px solid darkblue;
+    margin: 10px;
+    padding: 30px;
+ text-align: center
+
+
+}
+.title{ font-weight: 600;
+
+
+}
+.plan {
+
+  margin: 10px
+}
