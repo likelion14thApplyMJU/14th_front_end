@@ -1,0 +1,24 @@
+.EmotionItem {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  border: 2px solid transparent;
+  transition: all 0.2s;
+  background-color: #ececec;
+}
+
+.EmotionItem:hover { transform: scale(1.05); }
+
+.emotion_emoji { font-size: 2rem; }
+.emotion_name  { font-size: 0.78rem; font-weight: 600; color: #555; }
+
+/* 선택된 상태 */
+.EmotionItem_on.EmotionItem_1 { background-color: #dff0d8; border-color: #4caf50; }
+.EmotionItem_on.EmotionItem_2 { background-color: #d9edf7; border-color: #2196f3; }
+.EmotionItem_on.EmotionItem_3 { background-color: #fcf8e3; border-color: #ff9800; }
+.EmotionItem_on.EmotionItem_4 { background-color: #fde2e2; border-color: #e91e63; }
+.EmotionItem_on.EmotionItem_5 { background-color: #f2dede; border-color: #ef5350; }

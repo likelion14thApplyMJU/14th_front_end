@@ -1,0 +1,25 @@
+.Button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.Button_DEFAULT {
+  background-color: #ececec;
+  color: #333;
+}
+.Button_DEFAULT:hover { background-color: #ddd; }
+
+.Button_POSITIVE {
+  background-color: #64b5f6;
+  color: #fff;
+}
+.Button_POSITIVE:hover { background-color: #42a5f5; }
+
+.Button_NEGATIVE {
+  background-color: #ef5350;
+  color: #fff;
+}
+.Button_NEGATIVE:hover { background-color: #e53935; }

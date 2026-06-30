@@ -1,0 +1,34 @@
+.DiaryItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.DiaryItem:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+
+.emotion_img_box {
+  width: 60px; height: 60px;
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  background-color: #ececec;
+  flex-shrink: 0;
+}
+.emotion_emoji { font-size: 2rem; }
+
+.emotion_img_box_1 { background-color: #dff0d8; }
+.emotion_img_box_2 { background-color: #d9edf7; }
+.emotion_img_box_3 { background-color: #fcf8e3; }
+.emotion_img_box_4 { background-color: #fde2e2; }
+.emotion_img_box_5 { background-color: #f2dede; }
+
+.diary_info_box { flex: 1; }
+.diary_date { font-size: 0.8rem; color: #888; margin-bottom: 4px; }
+.diary_content_preview { font-size: 0.95rem; font-weight: 600; color: #333; }
+
+.diary_btn_box { flex-shrink: 0; }
