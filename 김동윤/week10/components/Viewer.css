@@ -1,0 +1,41 @@
+.Viewer { display: flex; flex-direction: column; gap: 24px; }
+
+.viewer_section h4 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #64748b;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.viewer_emotion_box {
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #ececec;
+}
+
+.viewer_emotion_emoji { font-size: 3rem; }
+.viewer_emotion_name  { font-size: 1rem; font-weight: 700; }
+
+.viewer_emotion_1 { background-color: #dff0d8; }
+.viewer_emotion_2 { background-color: #d9edf7; }
+.viewer_emotion_3 { background-color: #fcf8e3; }
+.viewer_emotion_4 { background-color: #fde2e2; }
+.viewer_emotion_5 { background-color: #f2dede; }
+
+.viewer_content {
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #333;
+  min-height: 150px;
+  white-space: pre-wrap;
+}

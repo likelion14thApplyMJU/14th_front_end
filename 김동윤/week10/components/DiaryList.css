@@ -1,0 +1,27 @@
+.DiaryList {}
+
+.list_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.list_header select {
+  padding: 8px 12px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.list_empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: #aaa;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
