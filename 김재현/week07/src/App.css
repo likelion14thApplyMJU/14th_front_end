@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: #fff;
+  padding: 32px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.section {
+  background: #f2f2f2;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+.viewer-label {
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.viewer-count {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.controller-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: 1rem;
+  border: 1.5px solid #aaa;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn:hover {
+  background: #e8e8e8;
+}
+
+.btn:active {
+  background: #d0d0d0;
+}
